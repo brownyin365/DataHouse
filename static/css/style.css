@@ -1,0 +1,143 @@
+body{
+	background-color: #F6F6F6;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.15;
+
+}
+
+header{
+	margin-top: 0px;
+	margin-left: 0px;
+	background: #1488CC;
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+	color: #fff;
+}
+
+.nav{
+	background-color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
+	/* Make this scrollable when needed */
+	overflow-x: auto;
+	/* We don't want vertical scrolling */
+	overflow-y: hidden;
+	/* For WebKit implementations, provide inertia scrolling */
+	-webkit-overflow-scrolling: touch;
+	/* We don't want internal inline elements to wrap */
+	white-space: nowrap;
+	text-align: center;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.nav nav a{
+	padding-right: 12px;
+	color: #828282;
+	font-size: 12px;
+	display: inline-flex;
+}
+
+.nav .active{
+	color: #0984E3;
+	font-weight: bold;
+}
+
+.nav-link {
+	font-size:18px !important;
+	display: inline-flex;
+	flex-direction: row;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.fas{
+	width: 1.6em;
+	vertical-align: middle;
+	overflow: hidden;
+	margin-right:5px;
+}
+
+.space-10{
+	height: 10px;
+}
+
+.space-20{
+	height: 20px;
+}
+
+.space-30{
+	height: 30px;
+}
+
+.space-40{
+	height: 40px;
+}
+
+.space-50{
+	height: 50px;
+}
+
+.card{
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	background-color: #fff !important;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1) !important;
+	border-radius: 7px !important;
+}
+
+.dashboard .card .header{
+	font-size: 36px !important;
+	color: #0984E3 !important;
+}
+
+.dashboard .card .description{
+	color: #828282 !important;
+}
+
+.search-bg{
+	background-color: #F6F6F6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.title{
+	color: #828282;
+	padding-bottom: 15px;
+}
+
+.padding-bottom{
+	padding-bottom: 15px;
+}
+.theme-color{
+	background: #1D82FF !important;
+}
+.white{
+	color: #fff !important;
+}
+.blue{
+	color: #1D82FF !important;
+}
+.card{
+	box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2) !important;
+}
+.padding-bottom{
+	padding-bottom: 20px;
+}
+.center-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.border-left{
+	border-left: 1px solid #F0F0F0;
+}
+.pale{
+	color: #576F7E !important;
+}
+.amount{
+	color: #1D82FF !important;
+	font-size: 35px;
+}

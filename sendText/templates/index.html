@@ -1,0 +1,133 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- <link href="{% static 'css/all.min.css' %}" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="{%static 'css/index.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <title>365Servers</title>
+</head>
+<body>
+    {%block content%}
+    <div class="header">
+        <div class="gradient">
+            <div class="navigation">
+               <img src="{% static 'img/logo.png' %}" class"logo" alt="logo" width="72" height="72">
+                <!--<h1 class="logo">365Servers</h1>-->
+                <div class="links-container">
+                    <br>
+                    <a href="{%url 'account:login'%}" class="links-sign-in">Sign In</a>
+                </div>
+            </div>
+            <div class="header-content"style="color:#fff;font-family: 'Comfortaa', cursive;">
+                <h1>Keeping track of your Customer has never been easy.</h1>
+                        <h4 style="color:#fff;margin-top:5px;font-family: 'Comfortaa', cursive;">
+                            Business succeed when your customers keep coming back.
+                            <br><br>
+                            Promote and Update with product details.. through our platform,by saving your customer's details on our platform via DEDICATED servers.
+                            <br>
+                        </h4>
+                <br><br>
+                <a href="{% url 'account:signup'%}" class="sign-in">Join Us</a>
+            </div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br>
+            
+        </div>
+    </div>
+    <div style="background-color: #fff">        
+    <div style="padding:80px;">
+        <div class=" section ">
+            <h1 style="text-align:center; color:#000;font-family: 'Comfortaa', cursive;">How it works </h1>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-4 col-sm-12 " style="text-align:center; padding-top:10px;">
+                        <img src="{% static 'img/signup3.png'%} " style="width:200px; height: 220">
+                        <h2 style="color:#1E62C0;font-family: 'Comfortaa', cursive; text-align:center ">Create Account</h2>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-12 " style="text-align:center; padding-top:10px;">
+                        <img src="{% static 'img/detail.png'%} " style="width:200px;height:220px;">
+                        <h2 style="color:#1E62C0;font-family: 'Comfortaa', cursive;text-align:center ">Get Customer's Detail</h2>
+                    </div>
+
+                    <div class=" col-md-4 col-sm-12 " style="text-align:center;padding-top:10px;">
+                        <img src="{% static 'img/promote.png' %}" id="last" style="width:200px;height:220px;">
+                        <h2 style="color:#1E62C0;font-family: 'Comfortaa', cursive;text-align:center ">Promote Product</h2>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+   </div>
+</div>
+<div class="footer ">
+        <div class="row ">
+            <div class="col-lg-2 col-md-2 col-sm-12 ">
+                <a class="blue item "><img class="card-img-top " src="{% static 'img/logo.png' %}" style="width:100px ;margin-left: 4vw; "></a>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 " style="padding:22px; text-align:center; word-spacing: 40px; ">
+
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 " style="padding:22px; "> © 2018 365Server</div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Your Website 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <script src="{% static 'js/ionicons.js'%}"></script>
+    {%endblock%}
+</body>
+</html>

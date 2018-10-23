@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:8000/success -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="./success_files/icon" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./success_files/materialize.min.css" media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="./success_files/style.css" media="screen,projection">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+      <nav>
+          <div style="padding:22px; text-align:right; word-spacing: 40px;">
+          <form class="nav-link" action="http://localhost:8000/account/logout/" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="crfyNgW4QWF2VuHkHHAyUtXbRD90VR56xQp0cYXevq42joX4tgVfFME1MR5o0N4j">
+            <button type="submit" class="btn btn-primary">Logout</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container login-f">
+      <div class="row">
+      <div class="col s12 m6 offset-m3">
+        <div class="card-panel teal">
+          <span class="white-text">Thank you very much! We have sent you a welcome email. Kindly read it and let us know if there is anything else we can do for you.
+          <br>
+          <br>
+          ~365ServersGH
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer class="page-footer" style="text-align: center;">
+      <div class="footer-copyright">
+        <div class="container">© 2015 Copyright 365Servers
+        </div>
+      </div>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="./success_files/jquery-2.1.1.min.js.download"></script>
+    <script type="text/javascript" src="./success_files/materialize.min.js.download"></script>
+    <script type="text/javascript">
+      function isEmail(email) {
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if regex.test(email){
+          document.getElementById('form').submit();
+        } else{
+          alert("Your email is incorrect!");
+        }
+      }
+    </script>
+  
+<div class="hiddendiv common"></div></body></html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://localhost:8000/admin/account/userprofile/4/change/ -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Change user profile | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="./Change user profile _ Django site admin_files/base.css">
+<link rel="stylesheet" type="text/css" href="./Change user profile _ Django site admin_files/forms.css">
+
+
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/saved_resource"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/jquery.init.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/core.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/RelatedObjectLookups.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/actions.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/urlify.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/prepopulate.js.download"></script>
+<script type="text/javascript" src="./Change user profile _ Django site admin_files/xregexp.js.download"></script>
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Change user profile _ Django site admin_files/responsive.css">
+    
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" app-account model-userprofile change-form" data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="http://localhost:8000/admin/">Administration</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Welcome,
+                <strong>admin</strong>.
+            
+            
+                
+                    <a href="http://localhost:8000/">View site</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="http://localhost:8000/admin/password_change/">Change password</a> /
+                
+                <a href="http://localhost:8000/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="http://localhost:8000/admin/">Home</a>
+› <a href="http://localhost:8000/admin/account/">Account</a>
+› <a href="http://localhost:8000/admin/account/userprofile/">User profiles</a>
+› Jack
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Change user profile</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+      
+
+<li>
+    
+    <a href="http://localhost:8000/admin/account/userprofile/4/history/" class="historylink">History</a>
+</li>
+
+
+
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" action="http://localhost:8000/admin/account/userprofile/4/change/" method="post" id="userprofile_form" novalidate=""><input type="hidden" name="csrfmiddlewaretoken" value="HnT7qFZWAavzjq1IMLYSWbbYhxotcFFghYwNPYJQu3o9m0FALLneiXh8c0kuVrM4">
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-user">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_user">User:</label>
+                        
+                            <div class="related-widget-wrapper">
+    <select name="user" required="" id="id_user">
+  <option value="">---------</option>
+
+  <option value="27">Alisa</option>
+
+  <option value="21">Anita</option>
+
+  <option value="28" selected="">Jack</option>
+
+  <option value="26">Tudor</option>
+
+  <option value="1">admin</option>
+
+</select>
+    
+        <a class="related-widget-wrapper-link change-related" id="change_id_user" data-href-template="/admin/auth/user/__fk__/change/?_to_field=id&amp;_popup=1" title="Change selected user" href="http://localhost:8000/admin/auth/user/28/change/?_to_field=id&amp;_popup=1"><img src="./Change user profile _ Django site admin_files/icon-changelink.svg" alt="Change"></a><a class="related-widget-wrapper-link add-related" id="add_id_user" href="http://localhost:8000/admin/auth/user/add/?_to_field=id&amp;_popup=1" title="Add another user"><img src="./Change user profile _ Django site admin_files/icon-addlink.svg" alt="Add"></a>
+    
+</div>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-description">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_description">Description:</label>
+                        
+                            <textarea name="description" cols="40" rows="10" class="vLargeTextField" maxlength="400" required="" id="id_description">something small about my store</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-city">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_city">City:</label>
+                        
+                            <input type="text" name="city" value="Takoradi" class="vTextField" maxlength="100" required="" id="id_city">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-website">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_website">Website:</label>
+                        
+                            <p class="url">Currently: <a href="http://www.cnn.com/">http://www.cnn.com</a><br>Change: <input type="url" name="website" value="http://www.cnn.com" class="vURLField" maxlength="200" required="" id="id_website">
+</p>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-location">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_location">Location:</label>
+                        
+                            <input type="text" name="location" value="Ghana" class="vTextField" maxlength="100" required="" id="id_location">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-phone">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_phone">Phone:</label>
+                        
+                            <input type="number" name="phone" value="233544392666" class="vIntegerField" required="" id="id_phone">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-image">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_image">Image:</label>
+                        
+                            <p class="file-upload">Currently: <a href="http://localhost:8000/admin/account/userprofile/4/change/profile_image/Jack_e6xhyAj.jpg">profile_image/Jack_e6xhyAj.jpg</a>
+<span class="clearable-file-input">
+<input type="checkbox" name="image-clear" id="image-clear_id">
+<label for="image-clear_id">Clear</label></span><br>
+Change:
+<input type="file" name="image" accept="image/*" id="id_image"></p>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+
+<input type="submit" value="Save" class="default" name="_save">
+
+    
+    <p class="deletelink-box"><a href="http://localhost:8000/admin/account/userprofile/4/delete/" class="deletelink">Delete</a></p>
+
+
+<input type="submit" value="Save and add another" name="_addanother">
+<input type="submit" value="Save and continue editing" name="_continue">
+
+
+</div>
+
+
+
+    <script type="text/javascript" id="django-admin-form-add-constants" src="./Change user profile _ Django site admin_files/change_form.js.download">
+    </script>
+
+
+
+
+<script type="text/javascript" id="django-admin-prepopulated-fields-constants" src="./Change user profile _ Django site admin_files/prepopulate_init.js.download" data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+
+
+</body></html>
