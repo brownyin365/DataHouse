@@ -26,7 +26,7 @@ SECRET_KEY = 'vp)4913zv_9iduqb9v^9h!is#dvc2%_&pf(3tqe$epmc%02nu!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = []
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = '365serversgh@gmail.com'
@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'sendText',
     'nexmo',
     'account',
-    # 'awesome_avatar',
     'avatar',
     
     
@@ -147,7 +146,6 @@ STATICFILES_DIRS = [
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 # Nexmo 
